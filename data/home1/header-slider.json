@@ -1,0 +1,20 @@
+[
+  {
+    "title": "inspira",
+    "subTitle": "Studio for Modern Architecture",
+    "desc": " We work closely with clients to design buildings and environments that reflect both culture and place, becoming one of the nation’s leading architectural practices.",
+    "img": "/home1/assets/img/head_slide1.webp"
+  },
+  {
+    "title": "time",
+    "subTitle": "Sustainable Material Resource",
+    "desc": " We collaborate with clients to create buildings and environments in dialogue with culture and place. And become one of the country's leading architectural practices",
+    "img": "/home1/assets/img/head_slide2.webp"
+  },
+  {
+    "title": "shape",
+    "subTitle": "Architecture Language Signature",
+    "desc": " We design buildings and spaces that connect with culture and place, earning recognition as one of the country’s leading architectural practices.",
+    "img": "/home1/assets/img/head_slide3.webp"
+  }
+]
