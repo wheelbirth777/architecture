@@ -1,26 +1,20 @@
 [
   {
     "title": "mahattan <br /> center park",
-    "img": "/home5_residence/assets/images/location/loc1.jpg",
+    "img": "/home5_residence/assets/images/location/loc1.webp",
     "num": "27",
     "subTitle": "minutes <br /> walk"
   },
   {
-    "title": "walmart <br /> mall",
-    "img": "/home5_residence/assets/images/location/loc2.jpg",
+    "title": "demo <br /> slide",
+    "img": "/home5_residence/assets/images/location/loc2.webp",
     "num": "15",
     "subTitle": "minutes <br /> walk"
   },
   {
-    "title": "orlando <br /> museum of art",
-    "img": "/home5_residence/assets/images/location/loc4.jpg",
+    "title": "apartment <br /> demo slide",
+    "img": "/home5_residence/assets/images/location/loc3.webp",
     "num": "17",
     "subTitle": "minutes <br /> by car"
-  },
-  {
-    "title": "mestson <br /> lake",
-    "img": "/home5_residence/assets/images/location/loc3.jpg",
-    "num": "20",
-    "subTitle": "minutes <br /> walk"
   }
 ]

@@ -1,20 +1,20 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
   return (
     <footer className="tc-footer-style5">
       <div className="container">
         <div className="title">
-          <h2 className=""> the archin </h2>
+          <h2 className=""> jatlink </h2>
         </div>
         <div className="info">
           <div className="row">
             <div className="col-lg-6">
-              <h4> +068 5681 96 96 </h4>
+              <h4> 702-123-456 </h4>
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0 text-lg-end">
-              <p> 298 Ocean Ave st, boston, MA 90028 </p>
-              <p> 9AM - 9PM EVERY DAY </p>
+              <p> 9621 N 1st St, San Jose, CA 95134 </p>
+              <p> 8AM - 10PM EVERY DAY </p>
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@ function Footer() {
               </a>
             </div>
             <div className="col-lg-4 text-center py-4 py-lg-0">
-              <a href="#"> © 2023 archin complex residence </a>
+              <a href="#"> © 2025 JATLink Residences </a>
             </div>
             <div className="col-lg-4 text-center text-lg-end">
               <div className="social-icons">

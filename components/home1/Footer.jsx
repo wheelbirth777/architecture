@@ -99,7 +99,7 @@ function Footer() {
             </div>
             <div className="col-lg-6">
               <div className="foot-links mt-4 mt-lg-0">
-                <a href="#"> Home </a>
+                <a href="/"> Home </a>
                 <a href="#"> Studio </a>
                 <a href="#"> Cases </a>
                 <a href="#"> News </a>

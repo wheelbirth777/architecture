@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Blog() {
   return (
@@ -15,7 +15,7 @@ function Blog() {
             >
               <a href="#" className="img">
                 <img
-                  src="/home5_residence/assets/images/blog1.jpg"
+                  src="/home5_residence/assets/images/apartmentHero.webp"
                   alt=""
                   className="img-cover"
                 />
@@ -32,7 +32,7 @@ function Blog() {
                     href="#"
                     className="title fsz-24 text-uppercase hover-brown1 d-block"
                   >
-                    ACTUAL CONSTRUCTION NEWS OF archin RESIDENCES
+                    ACTUAL CONSTRUCTION NEWS OF JATLink RESIDENCES
                   </a>
                   <small className="fsz14 text-uppercase mt-15 color-brown1 fw-300">
                     News
@@ -58,7 +58,7 @@ function Blog() {
                     href="#"
                     className="title fsz-24 text-uppercase hover-brown1 d-block"
                   >
-                    archin apartment: mortgage program from 0.01%
+                    jatlink apartment: mortgage program from 0.01%
                   </a>
                   <small className="fsz14 text-uppercase mt-15 color-brown1 fw-300">
                     News, Offers

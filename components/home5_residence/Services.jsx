@@ -1,5 +1,5 @@
-import React from 'react';
-import data from '@/data/home5_residence/services';
+import React from "react";
+import data from "@/data/home5_residence/services";
 function Services() {
   return (
     <section className="tc-services-style5">
@@ -9,14 +9,14 @@ function Services() {
             <div className="row justify-content-between">
               <div className="col-lg-6">
                 <h2 className="fsz-70 text-uppercase fw-400 js-splittext-lines">
-                  <span className="color-brown1">premium service</span> <br /> &
-                  amenities
+                  <span className="color-brown1">Luxury Comforts</span> <br /> &
+                  Conveniences
                 </h2>
               </div>
               <div className="col-lg-5">
                 <h6 className="color-brown1 text-uppercase fsz-24 lh-4 js-splittext-lines">
-                  20+ premium and essential services in archin, constributing to
-                  enhancing resident’s life experience
+                  Over 20 premium and essential services designed to enhance
+                  every resident’s lifestyle.
                 </h6>
               </div>
             </div>

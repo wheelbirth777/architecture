@@ -1,12 +1,12 @@
-'use client';
-import React from 'react';
-import data from '@/data/home5_residence/flawless';
+"use client";
+import React from "react";
+import data from "@/data/home5_residence/flawless";
 function Flawless() {
   function handleOpenPanel(event) {
-    document.querySelectorAll('.acc-li').forEach((item) => {
-      item.classList.remove('is-open');
+    document.querySelectorAll(".acc-li").forEach((item) => {
+      item.classList.remove("is-open");
     });
-    event.currentTarget.classList.add('is-open');
+    event.currentTarget.classList.add("is-open");
   }
   return (
     <section className="tc-flawless-style5">
@@ -15,14 +15,13 @@ function Flawless() {
           <div className="row justify-content-between">
             <div className="col-lg-6">
               <h2 className="fsz-70 text-uppercase fw-400 js-splittext-lines">
-                <span className="color-brown1"> Flawless </span> <br />
-                infrastructure
+                <span className="color-brown1"> Modern </span> <br />
+                Living Spaces
               </h2>
             </div>
             <div className="col-lg-5">
               <h6 className="color-brown1 text-uppercase fsz-24 lh-4 js-splittext-lines">
-                A THOUSAND AND ONE WAYS TO TREAT YOURSELF AND THE ONES YOU LOVE
-                – ON HAND WHENEVER YOU WANT.
+                Endless ways to indulge yourself and those you love
               </h6>
             </div>
           </div>
@@ -34,7 +33,7 @@ function Flawless() {
                 <li
                   key={i}
                   onClick={handleOpenPanel}
-                  className={`acc-li  ${i == 0 && 'is-open'}`}
+                  className={`acc-li  ${i == 0 && "is-open"}`}
                 >
                   <img src={item.img} alt="" className="bg" />
                   <div className="panel-inner">
@@ -44,8 +43,8 @@ function Flawless() {
                     </div>
                     <div className="acc-body">
                       <h3 className="text-title">
-                        {item.subTitle.split('<br />')[0]} <br />{' '}
-                        {item.subTitle.split('<br />')[1]}
+                        {item.subTitle.split("<br />")[0]} <br />{" "}
+                        {item.subTitle.split("<br />")[1]}
                       </h3>
                       <a href="#" className="float-arrow">
                         <i className="fat fa-arrow-up-right"></i>

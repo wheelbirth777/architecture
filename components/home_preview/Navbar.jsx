@@ -12,13 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark tc-navbar-preview">
       <div className="container-fluid content">
-        <a className="navbar-brand" href="#">
-          <img
-            src="/home_preview/assets/img/logo.png"
-            alt=""
-            className="logo"
-          />
-        </a>
+        
         <button
           className="navbar-toggler"
           type="button"

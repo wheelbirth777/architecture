@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Header() {
   return (
@@ -6,10 +6,11 @@ function Header() {
       <div className="container">
         <div className="main-content">
           <div className="title">
-            <h1> the archin </h1>
+            <h1> JATLink </h1>
           </div>
           <h4 className="fsz-24 text-uppercase mt-30 lh-4">
-            the new highlight <br /> in the city
+            Your first look at
+            <br /> modern living
           </h4>
         </div>
         <div className="btm-content">
@@ -43,7 +44,7 @@ function Header() {
                   <div className="col-lg-6">
                     <a href="#0" className="img-card">
                       <img
-                        src="/home5_residence/assets/images/header2.jpg"
+                        src="/home5_residence/assets/images/apartmentHero.webp"
                         alt=""
                         className="main-img img-cover"
                       />
