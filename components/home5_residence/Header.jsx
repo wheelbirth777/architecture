@@ -28,11 +28,7 @@ function Header() {
               <div className="float-imgs wow zoomIn slow" data-wow-delay="0.4s">
                 <div className="row gx-0">
                   <div className="col-lg-6">
-                    <a
-                      href="https://www.youtube.com/watch?v=qYgdnM3BC3g"
-                      className="video-card"
-                      data-fancybox="video"
-                    >
+                    <a href="#" className="video-card" data-fancybox="video">
                       <span className="play-icon">
                         <i className="fat fa-play"></i>
                       </span>
