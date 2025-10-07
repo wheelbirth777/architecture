@@ -49,10 +49,12 @@ function Footer() {
                   </h4>
                   <ul className="color-666">
                     <li>
-                      <a href="#">268 Elizaberth Ave St, Brooklyn, CA 90005</a>
+                      <a href="#">
+                        9621 Monarch Grove St. Las Vegas, Nevada 89139
+                      </a>
                     </li>
                     <li>
-                      <a href="#"> (054) 3256 78 87 </a>
+                      <a href="#"> 725-287-7980</a>
                     </li>
                     <li>
                       <a href="#"> support@inspira.com </a>
@@ -85,7 +87,7 @@ function Footer() {
             <img src="/home6_furniture/assets/images/payment.png" alt="" />
           </div>
           <div className="copy text-center mt-50">
-            <p className="color-666">© 2025 JATCom Labs. All Right Reserved</p>
+            <p className="color-666">© 2025 JATLink Labs. All Right Reserved</p>
           </div>
         </div>
       </div>
