@@ -159,7 +159,7 @@ function Portfolio() {
       <div className="imgs">
         <img
           id="tab-1"
-          src="/home8_portfolio/assets/img/portfolio/hero6.webp"
+          src="/home8_portfolio/assets/img/portfolio/hero5.webp"
           alt=""
           className="tab-img current"
         />

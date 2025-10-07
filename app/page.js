@@ -42,7 +42,7 @@ export default function Home() {
           <Navbar />
           <Header />
           <main>
-            <Demos />
+            {/* <Demos /> */}
             {/* <DarkSection /> */}
             <Layouts />
             <WooCommerce />
