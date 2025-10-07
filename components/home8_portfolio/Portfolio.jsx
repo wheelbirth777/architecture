@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Portfolio() {
   return (
@@ -159,7 +159,7 @@ function Portfolio() {
       <div className="imgs">
         <img
           id="tab-1"
-          src="/home8_portfolio/assets/img/portfolio/pr1.jpg"
+          src="/home8_portfolio/assets/img/portfolio/hero6.webp"
           alt=""
           className="tab-img current"
         />

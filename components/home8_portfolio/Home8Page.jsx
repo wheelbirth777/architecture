@@ -1,16 +1,16 @@
-'use client';
-import React, { useEffect, useRef } from 'react';
-import About from '@/components/home8_portfolio/About';
-import Services from '@/components/home8_portfolio/Services';
-import Portfolio from '@/components/home8_portfolio/Portfolio';
-import Clients from '@/components/home8_portfolio/Clients';
-import Partners from '@/components/home8_portfolio/Partners';
-import Team from '@/components/home8_portfolio/Team';
-import Contact from '@/components/home8_portfolio/Contact';
+"use client";
+import React, { useEffect, useRef } from "react";
+import About from "@/components/home8_portfolio/About";
+import Services from "@/components/home8_portfolio/Services";
+import Portfolio from "@/components/home8_portfolio/Portfolio";
+import Clients from "@/components/home8_portfolio/Clients";
+import Partners from "@/components/home8_portfolio/Partners";
+import Team from "@/components/home8_portfolio/Team";
+import Contact from "@/components/home8_portfolio/Contact";
 // import Control from '@/components/home8_portfolio/Control';
 // import { Swiper } from 'swiper/react';
-import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 // SwiperCore.use([Navigation, Pagination, Mousewheel, Keyboard, Autoplay]);
 
 function Home8Page() {
@@ -26,11 +26,11 @@ function Home8Page() {
       // .map((item) =>
       // item.includes('reverse-color')
       if (
-        swiper.slides[activeSlide].classList.value.includes('reverse-color')
+        swiper.slides[activeSlide].classList.value.includes("reverse-color")
       ) {
-        document.body.classList.add('reverse-color');
+        document.body.classList.add("reverse-color");
       } else {
-        document.body.classList.remove('reverse-color');
+        document.body.classList.remove("reverse-color");
       }
     },
     onResize(swiper) {
@@ -40,9 +40,9 @@ function Home8Page() {
     spaceBetween: 0,
     // centeredSlides: true,
     speed: 1000,
-    direction: 'vertical',
+    direction: "vertical",
     pagination: {
-      el: '.full-page-pagination .swiper-pagination',
+      el: ".full-page-pagination .swiper-pagination",
       clickable: true,
     },
     navigation: false,
@@ -61,7 +61,7 @@ function Home8Page() {
 
           releaseOnEdges: false,
         },
-        direction: 'vertical',
+        direction: "vertical",
       },
       480: {
         mousewheel: {
@@ -69,7 +69,7 @@ function Home8Page() {
 
           releaseOnEdges: false,
         },
-        direction: 'vertical',
+        direction: "vertical",
       },
       787: {
         mousewheel: {
@@ -77,7 +77,7 @@ function Home8Page() {
 
           releaseOnEdges: false,
         },
-        direction: 'horizontal',
+        direction: "horizontal",
       },
       991: {
         mousewheel: false,
@@ -88,10 +88,10 @@ function Home8Page() {
           releaseOnEdges: false,
         },
         // mousewheel: false,
-        direction: 'horizontal',
+        direction: "horizontal",
       },
       1000: {
-        direction: 'horizontal',
+        direction: "horizontal",
       },
     },
   };

@@ -90,7 +90,7 @@
 }
 .side_menu.style-1 .pages_links li a::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 110%;
   top: 60%;
   width: 0;
@@ -216,13 +216,13 @@
 }
 /* --------------- about style8 --------------- */
 .tc-about-style8 {
-  background-image: url(../img/about.jpg);
+  background-image: url(../img/hero4.webp);
   background-size: cover;
   color: #fff;
 }
 .tc-about-style8::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 100%;
@@ -756,7 +756,7 @@
 }
 .tc-team-style8 .team-card .img::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 100%;
@@ -815,7 +815,7 @@
 }
 .tc-contact-style8::after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   top: 0;
   width: 100%;
