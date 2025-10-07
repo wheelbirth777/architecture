@@ -1,12 +1,12 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 
 function SideMenu() {
   function closeSideMenu() {
-    const sideMenu = document.querySelector('#side_menu');
-    const sideMenu2 = document.querySelector('.side_overlay');
-    sideMenu2.classList.remove('show');
-    sideMenu.classList.remove('show');
+    const sideMenu = document.querySelector("#side_menu");
+    const sideMenu2 = document.querySelector(".side_overlay");
+    sideMenu2.classList.remove("show");
+    sideMenu.classList.remove("show");
   }
   return (
     <>
@@ -16,8 +16,16 @@ function SideMenu() {
         </a>
         <div className="content">
           <div className="logo">
-            <a href="#" className="w-100">
-              <img src="/home8_portfolio/assets/img/logo_dark.png" alt="" />
+            {/* <a href="#" className="w-100">
+              <img src="/home8_portfolio/assets/img/logo.webp" alt="" />
+            </a> */}
+            <a href="https://jatlink.com" className="logo">
+              <img
+                src="/home8_portfolio/assets/img/logo.webp"
+                alt="JATLink logo"
+                width="100"
+                className="bg-white border border-orange1"
+              />
             </a>
           </div>
           <div className="pages_links">
@@ -60,7 +68,7 @@ function SideMenu() {
               <div className="col-lg-6">
                 <a href="#">
                   <i className="fal fa-envelope me-2 mt-4 mt-lg-0"></i>
-                  contact@archin.co
+                  support@jatlink.com
                 </a>
               </div>
             </div>

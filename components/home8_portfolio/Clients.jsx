@@ -1,7 +1,7 @@
-'use client';
-import React from 'react';
-import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
+"use client";
+import React from "react";
+import { Autoplay, Keyboard, Navigation, Pagination } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 function Clients() {
   const swiperOptions = {
@@ -11,12 +11,12 @@ function Clients() {
     centeredSlides: true,
     speed: 1000,
     pagination: {
-      el: '.clients-slider .swiper-pagination',
-      type: 'fraction',
+      el: ".clients-slider .swiper-pagination",
+      type: "fraction",
     },
     navigation: {
-      nextEl: '.clients-arrows .swiper-button-next',
-      prevEl: '.clients-arrows .swiper-button-prev',
+      nextEl: ".clients-arrows .swiper-button-next",
+      prevEl: ".clients-arrows .swiper-button-prev",
     },
     mousewheel: false,
     keyboard: true,
@@ -69,11 +69,11 @@ function Clients() {
                     <div className="clients-card">
                       <div className="info">
                         <div className="text fsz-25 fw-500 mb-20 lh-4">
-                          “Archin - an architecture studio with passionate,
-                          profressional and full creativity. The entire team
-                          tactfully delivered a project of exceptional quality
-                          while staying on schedule and under budget. More than
-                          what i&apos;m expected. Perfect!.&#34;
+                          JATLink delivered a high-performing, beautifully
+                          designed website that perfectly captured my brand. The
+                          team combined creativity, professionalism, and
+                          technical excellence, delivering more than I expected.
+                          Truly outstanding work!
                         </div>
                         <div className="author-inf">
                           <div className="img">
@@ -84,7 +84,7 @@ function Clients() {
                             />
                           </div>
                           <div className="inf">
-                            <p className="fsz-13 fw-bold"> Szoboslai D. </p>
+                            <p className="fsz-13 fw-bold"> Client D. </p>
                             <small className="color-666">
                               Director at Dallas Ecolodge Jsc
                             </small>
@@ -97,11 +97,10 @@ function Clients() {
                     <div className="clients-card">
                       <div className="info">
                         <div className="text fsz-25 fw-500 mb-20 lh-4">
-                          “Archin - an architecture studio with passionate,
-                          profressional and full creativity. The entire team
-                          tactfully delivered a project of exceptional quality
-                          while staying on schedule and under budget. More than
-                          what i&apos;m expected. Perfect!.&#34;
+                          JATLink is a team of passionate, professional, and
+                          creative developers. They delivered a project of
+                          exceptional quality — on time, on budget, and beyond
+                          expectations. Perfect!
                         </div>
                         <div className="author-inf">
                           <div className="img">
@@ -112,7 +111,7 @@ function Clients() {
                             />
                           </div>
                           <div className="inf">
-                            <p className="fsz-13 fw-bold"> Szoboslai D. </p>
+                            <p className="fsz-13 fw-bold"> Client D. </p>
                             <small className="color-666">
                               Director at Dallas Ecolodge Jsc
                             </small>

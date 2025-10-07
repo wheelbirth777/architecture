@@ -1,12 +1,12 @@
-'use client';
-import React from 'react';
+"use client";
+import React from "react";
 
 function Starting() {
   function openSideMenu() {
-    const sideMenu = document.querySelector('#side_menu');
-    const sideMenu2 = document.querySelector('.side_overlay');
-    sideMenu2.classList.add('show');
-    sideMenu.classList.add('show');
+    const sideMenu = document.querySelector("#side_menu");
+    const sideMenu2 = document.querySelector(".side_overlay");
+    sideMenu2.classList.add("show");
+    sideMenu.classList.add("show");
   }
   return (
     <div className="fixed-content">
@@ -23,10 +23,16 @@ function Starting() {
           </span>
         </a>
       </div>
-      <p className="fixed-txt"> © 2023 Archin Design Studio </p>
+      <p className="fixed-txt"> © 2025 JATLink Labs </p>
       <div className="fixed-nav">
-        <a href="#" className="logo">
-          <img src="/home8_portfolio/assets/img/logo.png" alt="" />
+        <a href="https://jatlink.com" className="logo">
+          <img
+            src="/home8_portfolio/assets/img/logo.webp"
+            alt="JATLink logo"
+            width="50"
+            height="50"
+            className="bg-white border border-orange1"
+          />
         </a>
         <span onClick={openSideMenu} className="menu-icon">
           <i className="fal fa-bars-sort"></i>

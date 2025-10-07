@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 function Contact() {
   return (
@@ -13,8 +13,8 @@ function Contact() {
           <div className="section-body">
             <div className="section-body">
               <div className="text fsz-16">
-                2221 Sw Broadway Dr, Portland, OR 97201 <br />
-                hello@archinstudio.co
+                9621 Monarch Grove St. Las Vegas, Nevada 89139 <br />
+                support@jatlink.com
               </div>
               <a
                 href="#"

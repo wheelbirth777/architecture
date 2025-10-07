@@ -7,7 +7,7 @@ import Clients from '@/components/home8_portfolio/Clients';
 import Partners from '@/components/home8_portfolio/Partners';
 import Team from '@/components/home8_portfolio/Team';
 import Contact from '@/components/home8_portfolio/Contact';
-import Control from '@/components/home8_portfolio/Control';
+// import Control from '@/components/home8_portfolio/Control';
 // import { Swiper } from 'swiper/react';
 import { Navigation, Pagination, Mousewheel, Keyboard, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
