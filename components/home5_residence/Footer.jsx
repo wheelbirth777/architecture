@@ -10,10 +10,10 @@ function Footer() {
         <div className="info">
           <div className="row">
             <div className="col-lg-6">
-              <h4> 702-123-456 </h4>
+              <h4> 725-287-7980 </h4>
             </div>
             <div className="col-lg-6 mt-4 mt-lg-0 text-lg-end">
-              <p> 9621 N 1st St, San Jose, CA 95134 </p>
+              <p> 9621 Monarch Grove St. Las Vegas, Nevada 89139 </p>
               <p> 8AM - 10PM EVERY DAY </p>
             </div>
           </div>
